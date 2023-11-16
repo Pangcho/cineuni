@@ -1,0 +1,25 @@
+<%-include('header.ejs')%>
+ 
+<hr> 
+<h2>게시판</h2>
+<table>
+    <tr>
+        <th>제목</th>
+        <th>내용</th>
+        <th>토론</th>
+        <th>날짜</th>
+    </tr>
+    <% posts.forEach(function(post) { %>     
+    <tr>
+        <td><a href="/community/post/<%= post.id %>"><%= post.title %></a></td>
+        <td><%= post.memo %></td>
+        <td><%= post.discussion ? 'Yes' : 'No' %></td>
+        <td><%= post.regdate %></td>
+    </tr>
+    <% }); %>
+</table>
+
+<br>
+<a href="/community/note" class="button">글쓰기</a>
+
+<%-include('footer.ejs')%>

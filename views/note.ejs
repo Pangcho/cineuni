@@ -1,0 +1,15 @@
+<%-include('header.ejs')%>
+    
+<form action="/communityProc" method="post">    
+    <hr>
+    <ul>
+        <li>글쓰기</li> 
+        <li> 제목 : <input type="text" name="title" required></li>
+        <li> 내용 <br>
+            <textarea name="memo" cols="50" rows="10" required></textarea></li>
+        <li> 토론 <input type="checkbox" name="discussion"></li>
+        <button>작성하기</button>
+    </ul>
+</form>
+
+<%-include('footer.ejs')%>
