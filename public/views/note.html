@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineUniverse</title>
+</head>
+<body>
+    <h1>씨네유니버스</h1>
+    <header>
+        <nav>
+            <a href="/">홈</a> |
+            <a href="/community.html">커뮤니티</a> |
+            <a href="/mypage.html">마이페이지</a>
+        </nav>
+    </header>
+    <form action="/communityProc" method="post">    
+        <hr>
+        <ul>
+            <li>글쓰기</li> 
+            <li> 제목 : <input type="text" name="title" required></li>
+            <li> 내용 <br>
+                <textarea name="memo" cols="50" rows="10" required></textarea></li>
+            <li> 토론 <input type="checkbox" name="discussion"></li>
+            <button>작성하기</button>
+        </ul>
+    </form>
+    <footer>
+        <hr>
+        Test 광림
+    </footer>
+</body>
+</html>

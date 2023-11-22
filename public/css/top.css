@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* 이 부분을 수정했습니다. */
+    height: 100vh; /* 이 부분을 원래대로 돌려놨습니다. */
+    gap: 30px; /* 각 요소 사이의 간격을 조절합니다. */
+    padding-top: 100px;
+}
+  
+.v93_63, .v93_64, .v93_65 {
+    width: 105px;
+    height: 32px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.v93_63 a, .v93_64 a, .v93_65 a {
+    text-decoration: none;
+    color: black; /* 링크 텍스트 색상을 변경하려면 이 값을 변경하세요. */
+}
+  
