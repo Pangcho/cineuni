@@ -6,10 +6,6 @@ var bodyParser = require('body-parser')
 
 app.use(bodyParser.urlencoded({ extended: false}))
 
-app.use(express.static('views'));
-app.use(express.static('js'));
-app.use(express.static('css'));
-
 app.use(express.static(path.join(__dirname + "/public")));
 app.use(express.static(path.join("./public")));
 
@@ -69,3 +65,4 @@ app.get('/mypage', (req, res) => {
 app.listen(port, () => {
     console.log(`서버가 실행되었습니다. 접속주소: http://localhost:${port}`)
 })
+

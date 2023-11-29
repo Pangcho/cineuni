@@ -1,14 +1,38 @@
+img {
+    width: 160px;
+    height: 80px;
+    position: absolute;
+    top: 3%;
+    left:23%;
+    transform: translateX(-50%);
+    max-width: 100%;
+}
 .container {
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* 이 부분을 수정했습니다. */
-    height: 100vh; /* 이 부분을 원래대로 돌려놨습니다. */
-    gap: 30px; /* 각 요소 사이의 간격을 조절합니다. */
-    padding-top: 100px;
+    align-items: flex-start;
+    height: 100vh;
+    gap: 30px;
+    margin-top: 25%;
+    margin-left: -10px;
 }
-  
 .v93_63, .v93_64, .v93_65 {
-    width: 105px;
+    width: 84px;
+    height: 32px;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -25px;
+}
+.v93_66 {
+    width: 84px;
     height: 32px;
     background: rgba(217,217,217,1);
     opacity: 1;
@@ -21,9 +45,11 @@
     justify-content: center;
     align-items: center;
 }
-  
-.v93_63 a, .v93_64 a, .v93_65 a {
-    text-decoration: none;
-    color: black; /* 링크 텍스트 색상을 변경하려면 이 값을 변경하세요. */
+.v93_63:hover, .v93_64:hover, .v93_65:hover, .v93_66:hover {
+    background: rgb(127, 85, 242); /* 색상을 변경하려면 이 값을 변경하세요. */
 }
   
+.v93_63 a, .v93_64 a, .v93_65 a, .v93_66 a {
+    text-decoration: none;
+    color: black;
+}

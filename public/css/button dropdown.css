@@ -2,12 +2,12 @@
     position: fixed;
     width: 35px;
     height: 35px;
-    background: red;
+    background: #8d91919e;
     cursor: pointer;
-    border: 2px solid red;
+    border: 2px solid #8d91919e;
     border-radius: 50%; 
     top: 85%; 
-    left: 85%; 
+    left: 60%; 
 }
 .button_plus:after {
     content: '';
@@ -35,11 +35,26 @@
     transition: 0.2s;
 }
 .button_plus:hover {
-    background-color: red;
+    background-color: #095776;
     transition: 0.2s;
 }
-.button_plus a {
-    display: block;
-    width: 100%;
-    height: 100%;
+.dropdown {
+    display: none;
+    position: absolute;
+    top: -70px; /* 상자들이 '+' 버튼 위에 위치하도록 top 값을 조정합니다 */
+    z-index: 1; /* 다른 요소 위에 상자들이 나타나도록 z-index 값을 설정합니다 */
+}
+.box {
+    width: 70px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 40px;
+}
+#writeBox {
+    top: 0px;
+}
+#searchBox {
+    top: 50px;
 }

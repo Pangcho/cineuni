@@ -16,63 +16,65 @@
         <link href="../css/top.css" rel="stylesheet" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
     
-        <title>CineUniverse</title>
+        <title>CineUniverse</title> 
       </head>
         
     <body>
-        <!-- 하단 네비게이션바 -->
-        <div class="nav-container">
-            <div class="v93_24 home">
-                <a href="/" class="home">
-                    <h1>홈</h1>
-                </a>
-            </div>
-            <div class="v93_25 community">
-                <a href="/community" class="community">
-                    <h1>커뮤니티</h1>
-                </a>
-            </div>
-            <div class="v93_26 event">
-                <a href="/event" class="event">
-                    <h1>이벤트</h1>
-                </a>
-            </div>
-            <div class="v93_27 mypage">
-                <a href="/mypage" class="mypage">
-                    <h1>마이페이지</h1>
-                </a>
-            </div>
-        </div>
-        <div class="v93_30"></div>
-        <div class="v93_42">
-              <!-- 여기에 게시글 데이터를 추가 -->
-        </div>
-        <!-- +버튼 -->
-        <div class="button_plus">
-            <div class="dropdown">
-                <div class="box" id="searchBox">검색</div>
-                <div class="box" id="writeBox">
-                    <a href="/community/note">글쓰기</a>
-                </div>
-             </div>
-        </div>          
+        <img src="./img/CineUniverse.png" alt="CineUniverse">
         <!-- 상단바 -->
         <div class="container">
             <div class="v93_63">
                 <a href="/following" class="following">팔로잉</a>
             </div>
             <div class="v93_64">
-                <a href="/community/popularnote" class="popularnote">인기</a>
+                <a href="/community/popularnote" class="popularnote">토론</a>
             </div>
             <div class="v93_65">
-                <a href="/test" class="test">테스트</a>
+                <a href="/test" class="test">게시글</a>
             </div>
-        </div>        
-        <!-- 게시글 토론 탭 -->
-        <div id="tabs">
-            <button id="postsTab">게시글</button>
-            <button id="discussionsTab">토론</button>
-          </div>
+            <div class="v93_66">
+                <a href="/test" class="test">소모임</a>
+            </div>
         </div>
+        <div class="v93_30"></div>
+        <div class="combined-card">
+            <div class="v93_41">
+              <!-- 여기에 게시글 작성자 이름과 날짜 데이터를 추가 -->
+            </div>
+            <div class="v93_42">
+              <!-- 여기에 게시글 제목과 내용 데이터를 추가 -->
+            </div>
+        </div>          
+        <!-- +버튼 -->
+        <div class="button_plus">
+            <a href="/community/note"></a>
+        </div>
+        <!-- 하단 네비게이션바 -->           
+        <div class="nav-container">
+            <div class="v93_24 home">
+                <a href="/" class="home">
+                    <img src="/img/home.png" alt="Home">
+                    <h1>홈</h1>
+                </a>
+            </div>
+            <div class="v93_25 community">
+                <a href="/community" class="community">
+                    <img src="/img/community.png" alt="Community">
+                    <h1>커뮤니티</h1>
+                </a>
+            </div>
+            <div class="v93_26 event">
+                <a href="/event" class="event">
+                    <img src="/img/event.png" alt="Community">
+                    <h1>이벤트</h1>
+                </a>
+            </div>
+            <div class="v93_27 mypage">
+                <a href="/mypage" class="mypage">
+                    <img src="/img/mypage.png" alt="Community">
+                    <h1>마이페이지</h1>
+                </a>
+            </div>
+        </div>       
     </body>
 </html>

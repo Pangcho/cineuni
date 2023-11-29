@@ -1,0 +1,28 @@
+.nav-container {
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    left: -10px;
+    width: 100%;
+    height: 10%;
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    z-index: 999; /*값이 높을수록 위에 표시 */
+}
+.v93_24, .v93_25, .v93_26, .v93_27 {
+    width: 45px;
+    height: 45px;
+    background: rgba(217,217,217,1);
+    border-radius: 50%;
+    display: flex;  
+    justify-content: center; 
+    align-items: center;  
+    margin: 0 10px;  /* 좌우 마진 추가 */
+}
+.v93_24:hover, .v93_25:hover, .v93_26:hover, .v93_27:hover {
+    background: rgb(127, 85, 242); /* 색상을 변경하려면 이 값을 변경하세요. */
+}
+a {
+    text-decoration: none; 
+}
