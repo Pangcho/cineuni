@@ -12,7 +12,7 @@ $(function() {
       // 현지 시간과 UTC 사이의 차이를 분으로 반환
       var offset = date.getTimezoneOffset() * 60000;
       // 한국 시간은 UTC + 9
-      var koreanDate = new Date(date.getTime() + offset + (3600000 * 9));
+      var koreanDate = new Date(date.getTime() + offset + (3600000 * 18));
       /*날짜와 시간을 "YYYY-MM-DDTHH:MM:SS.sssZ" 형식의 문자열로 변환 문자열에서 날짜와 시간 부분만을 가져오기 위해 substring 메소드 사용
       T문자는 공백 문자로 변경 날짜와 시간 사이에 공백*/
       var formattedDate = koreanDate.toISOString().substring(0, 16).replace("T", " ");

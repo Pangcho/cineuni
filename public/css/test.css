@@ -41,7 +41,7 @@ body {
   height: auto;
   background-color: gainsboro;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center center; 
   background-size: cover;
   position: absolute;
   top: 180px;
