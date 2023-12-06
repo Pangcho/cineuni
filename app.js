@@ -30,6 +30,9 @@ app.get('/community', (req, res) => {
 app.get('/discussion', (req, res) => {
   res.sendFile(__dirname + '/public/views/discussion.html'); 
 })
+app.get('/community/search', (req, res) => {
+  res.sendFile(__dirname + '/public/views/search.html'); 
+})
 
 app.get('/api/posts', function(req, res) {
     connection.query('SELECT * FROM community', function (err, results) {

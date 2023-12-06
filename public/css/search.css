@@ -1,0 +1,12 @@
+.navbar-brand {
+    position: relative;
+  }
+.navbar-brand img {
+    position: absolute;
+}
+.top-navbar {
+    border-bottom: 2px solid rgba(128, 128, 128, 0.375);
+}
+.bottom-navbar {
+    border-top: 2px solid rgba(128, 128, 128, 0.375);
+}
