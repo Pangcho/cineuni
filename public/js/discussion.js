@@ -18,7 +18,6 @@ $(function() {
       var formattedDate = koreanDate.toISOString().substring(0, 16).replace("T", " ");
 
       var postDiv41 = '<div class="post-card post-card-41">' +  // post-card-41 클래스 추가 각각 css 스타일을 적용시키기 위함
-      '<div class="circle"></div>' +
       '<table>' +
       '<tr>' +
       '<td>' + post.name + '</td>' +
@@ -32,17 +31,18 @@ $(function() {
       var postDiv42 = '<div class="post-card post-card-42">' + // post-card-42 클래스 추가
       '<table>' +
       '<tr>' +
-      '<td>' + post.title + '</td>' +
+      '<td style="font-size: 20px; font-weight: bold;">' + post.title + '</td>' +
       '</tr>' +
       '<tr>' +
       '<td>' + post.memo + '</td>' +
       '</tr>' +
       '</table>' +
-      '</div>';      
+      '</div>';
+      
 
       var combinedDiv = '<div class="combined-card">' +
         postDiv41 +
-        postDiv42 
+        postDiv42 +
         '</div>';
 
       // 생성된 HTML 코드를 .v93_41에 추가

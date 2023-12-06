@@ -1,35 +1,92 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CineUniverse</title>
-</head>
-<body>
-    <h1>씨네유니버스</h1>
-    <header>
-        <nav>
-            <a href="/">홈</a> |
-            <a href="/community">커뮤니티</a> |
-            <a href="/mypage">마이페이지</a>
-        </nav>
-    </header>
-    <table id="postsTable">
-      <tr>
-        <th>제목</th>
-        <th>내용</th>
-        <th>토론</th>
-        <th>날짜</th>
-      </tr>
-    <!-- 여기에 게시글 데이터를 추가 -->
-    </table>
-    <br>
-    <a href="/community/note" class="button">글쓰기</a>
-    <footer>
-        <hr>
-        Test 광림
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CineVerse</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="../css/community.css" rel="stylesheet" />
     <script src="../js/community.js"></script>
+  </head>
+  <body>
+    <!-- 로고 -->
+    <div class="container-fluid">
+          <a href="/">
+            <img id="logo" src="../img/cineverse.png" alt="CineUniverse" style="width: 40%; height: 40%; margin-top:10%;" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <ul class="nav nav-tabs justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link square" aria-current="page" href="/follow">팔로우</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link square" href="/discussion">토론</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link square" href="/community">게시글</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link square" href="/moim">소모임</a>
+        </li>
+      </ul>   
+    </div>
+    <div class="combined-card">
+      
+      <div class="v93_41">
+        <!-- 여기에 게시글 작성자 이름과 날짜 데이터를 추가 -->
+      </div>
+      <div class="v93_42">
+        <!-- 여기에 게시글 제목과 내용 데이터를 추가 -->
+      </div>
+    </div>     
+    <!-- 글작성 버튼 -->
+    <div class="combined-card row">
+      <div class="v93_41">
+        <!-- 여기에 게시글 작성자 이름과 날짜 데이터를 추가 -->
+      </div>
+      <div class="v93_42">
+        <!-- 여기에 게시글 제목과 내용 데이터를 추가 -->
+      </div>
+    </div>      
+    <!-- 하단 네비게이션바 -->
+    <nav class="navbar fixed-bottom" style="background-color: white; height: 10vh;">
+      <div class="container d-flex justify-content-center align-items-center">
+        <a class="nav-link mx-4" href="/">
+          <div class="d-flex flex-column align-items-center">
+            <img src="../img/home.png" alt="Home">
+            <span class="text">홈</span>
+          </div>
+        </a>
+        <a class="nav-link mx-4" href="/community">
+          <div class="d-flex flex-column align-items-center">
+            <img src="../img/community.png" alt="Community">
+            <span class="text">커뮤니티</span>
+          </div>
+        </a>
+        <a class="nav-link mx-4" href="/event">
+          <div class="d-flex flex-column align-items-center">
+            <img src="../img/event.png" alt="Event">
+            <span class="text">이벤트</span>
+          </div>
+        </a>
+        <a class="nav-link mx-4" href="/mypage">
+          <div class="d-flex flex-column align-items-center">
+            <img src="../img/mypage.png" alt="My Page">
+            <span class="text">마이페이지</span>
+          </div>
+        </a>
+      </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
   </body>
-  </html>
+</html>

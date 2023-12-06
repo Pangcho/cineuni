@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    width: 390px;
+    height: 844px;
+    margin: 0 auto; /* 페이지 중앙에 위치시키기 위해 사용 */
+    overflow: auto; /* 내용이 body의 크기를 넘어갈 경우 스크롤바 표시 */
+}
+.v93_30 {
+  width: 390px;
+  background: url("../images/v93_30.png");
+  opacity: 1;
+  position: absolute;
+  top: 146px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 1px solid rgba(217,217,217,1);
+}
+.v93_41{
+  width: 390px;
+  height: auto;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid rgb(248, 247, 247);
+  overflow: hidden;
+}
+.v93_42 {
+  width: 390px;
+  height: auto;
+  background-color: gainsboro;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-size: cover;
+  position: absolute;
+  top: 180px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border: 1px solid rgb(248, 247, 247);
+  border-radius: 10px; /* 모서리를 둥글게 */
+  overflow: hidden;
+}
+.post-card-41 {
+  width: 90%;
+  height: auto;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  border: 1px solid rgb(248, 247, 247);
+  overflow: hidden;
+  margin-bottom: 10px; /* 각 카드 사이의 간격 조정 */
+}
+.post-card-42 {
+  width: 95%;
+  height: auto;
+  background-color: gainsboro;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border: 1px solid rgb(248, 247, 247);
+  border-radius: 10px; /* 모서리를 둥글게 */
+  overflow: hidden;
+  margin: 0 auto;
+  margin-bottom: 20px; /* 각 카드 사이의 간격 조정 */
+}
+.combined-card {
+  margin-bottom: 0; /* 각 카드 사이의 간격 조정 */
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+h1 {
+  font-size: 9px;
+}
+#write-button{
+  position: fixed;
+  top: 80%; 
+  left: 85%; 
+  width: 40px;
+  height: 40px;
+}

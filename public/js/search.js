@@ -118,7 +118,7 @@ const createSearchedList = (list, compare) => {
         const releaseDate = document.createElement('span');
         const span = document.createElement('span');
         li.classList.add('searched-movie');
-
+        
         // 이미지 관련 코드 삭제
         // 포스터 이미지 설정
         // 속성 비어 있지 않다면 경로를 src 속성으로 설정
@@ -145,9 +145,6 @@ const createSearchedList = (list, compare) => {
             window.location.href = `../html/searchResult.html?movieSeq=${orderedResult[i].movieSeq}&movieId=${orderedResult[i].movieId}`;
         });
     }
-
-
-
     //모든 영화 요소가 포함된 DocumentFragment를 그리드 박스에 추가 -> 화면에 표시
     gridBox.appendChild(fragment);
 };

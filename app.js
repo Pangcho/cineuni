@@ -27,6 +27,10 @@ app.get('/community', (req, res) => {
     res.sendFile(__dirname + '/public/views/community.html'); 
 })
 
+app.get('/discussion', (req, res) => {
+  res.sendFile(__dirname + '/public/views/discussion.html'); 
+})
+
 app.get('/api/posts', function(req, res) {
     connection.query('SELECT * FROM community', function (err, results) {
       if (err) throw err;

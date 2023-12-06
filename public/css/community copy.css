@@ -1,0 +1,92 @@
+.navbar .nav-link img {
+    width: 25px;
+    height: 25px;
+  }
+.navbar .nav-link span {
+    font-size: 10px;
+}
+.top-line {
+    border-top: 1px solid #000;
+}
+.nav-link.square {
+    width: 84px;
+    height: 32px;
+    color: black;
+    background: rgba(217,217,217,1);
+    opacity: 1;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 5px; 
+    text-decoration: none; /* 밑줄 제거 */
+  }
+  .v93_41{
+    height: auto;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 1px solid rgb(248, 247, 247);
+    overflow: hidden;
+  }
+  .v93_42 {
+    height: auto;
+    background-color: gainsboro;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: 1px solid rgb(248, 247, 247);
+    border-radius: 10px; /* 모서리를 둥글게 */
+    overflow: hidden;
+  }
+  .post-card-41 {
+    height: auto;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    border: 1px solid rgb(248, 247, 247);
+    overflow: hidden;
+    margin-left: 15%;
+    margin-bottom: 10px; /* 각 카드 사이의 간격 조정 */
+  }
+  .post-card-41 .circle {
+    width: 50px;  
+    height: 50px;  
+    background-color: gray;  
+    border-radius: 50%;   
+    top: 20px;  
+    left: 50%;  
+    transform: translateX(-50%);  
+  }
+  .post-card-42 {
+    height: auto;
+    background-color: gainsboro;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border: 1px solid rgb(248, 247, 247);
+    border-radius: 10px; /* 모서리를 둥글게 */
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 20px; /* 각 카드 사이의 간격 조정 */
+  }
+  .combined-card {
+    margin-bottom: 0; /* 각 카드 사이의 간격 조정 */
+  }
